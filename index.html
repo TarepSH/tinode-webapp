@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tinode</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="application-name" content="Tinode">
+    <meta name="description" content="Instant messaging">
+    <meta name="application-url" content="https://api.tinode.co/">
+    <!-- Browser styling for Chrome, FF, Opera -->
+    <meta name="theme-color" content="#3949AB">
+    <!-- Ask Google not to offer page translation -->
+    <meta name="google" value="notranslate">
+
+    <link rel="manifest" href="manifest.json">
+    <link id="shortcut-icon" rel="shortcut icon" href="img/logo32x32.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="img/logo192.png" type="image/png" />
+    <link rel="canonical" href="https://api.tinode.co/" />
+    <!-- Google's Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700&subset=latin,cyrillic"
+      rel="stylesheet" type="text/css" />
+    <!-- Google's material design icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Styles for local elements -->
+    <link rel="stylesheet" href="css/base.min.css" />
+
+    <!-- ReactJs scripts -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <!-- core tinode library -->
+    <script src="https://unpkg.com/tinode-sdk/umd/tinode.prod.js"></script>
+  </head>
+  <body>
+    <div id="mountPoint"></div>
+    <script src="index.min.js"></script>
+  </body>
+</html>

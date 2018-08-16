@@ -1,0 +1,89 @@
+{
+  "_from": "tinode-webapp",
+  "_id": "tinode-webapp@0.15.4",
+  "_inBundle": false,
+  "_integrity": "sha512-U9IxKD0n9uGEws5a6RdhpvXrA2LydFK0mdzSDGhtZCjpxfy0cW/XbpxuMuSOn/dudfWiFgBgkgwSuiIa17ORDw==",
+  "_location": "/tinode-webapp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "tinode-webapp",
+    "name": "tinode-webapp",
+    "escapedName": "tinode-webapp",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tinode-webapp/-/tinode-webapp-0.15.4.tgz",
+  "_shasum": "d4a77af0b35dc14119d4e8bc039ec5e9a03b3cb2",
+  "_spec": "tinode-webapp",
+  "_where": "/home/tarek/tarek/other",
+  "bugs": {
+    "url": "https://github.com/tinode/example-react-js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Tinode Web Client",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.4.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
+    "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.0.5"
+  },
+  "email": "gene@tinode.co",
+  "files": [
+    "audio/msg.mp3",
+    "css/base.css",
+    "css/base.min.css",
+    "img/ignasi_pattern_s.png",
+    "img/logo.svg",
+    "img/logo32x32.png",
+    "img/logo32x32a.png",
+    "img/logo96.png",
+    "img/logo192.png",
+    "index-dev.html",
+    "index.html",
+    "index.js",
+    "index.min.js",
+    "manifest.json",
+    "web-desktop-2.png",
+    "web-mob-chat-1.png",
+    "web-mob-contacts-1.png",
+    "web-mob-info-1.png",
+    "web-mob-new-chat-1.png"
+  ],
+  "homepage": "https://github.com/tinode/chat",
+  "keywords": [
+    "chat",
+    "instant-messenger",
+    "message",
+    "messenger",
+    "react",
+    "web"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "tinode-webapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinode/example-react-js.git"
+  },
+  "scripts": {
+    "babel-version": "babel --version",
+    "build": "npm run build:js && npm run build:css",
+    "build:css": "postcss css/base.css > css/base.min.css",
+    "build:js": "babel ./index.js --presets react,minify --out-file ./index.min.js"
+  },
+  "version": "0.15.4",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
